@@ -223,5 +223,14 @@ export const SecondsCounter = () => {
 				</div>
 			</div>
 		);
+	} else {
+		return (
+			<div>
+				<h1>
+					Man, I can&#x27;t bealive you&#x27;ve spent so much time
+					watching on this counter! :)
+				</h1>
+			</div>
+		);
 	}
 };
