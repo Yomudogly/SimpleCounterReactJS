@@ -225,7 +225,7 @@ export const SecondsCounter = () => {
 		);
 	} else {
 		return (
-			<div>
+			<div className="container mt-5">
 				<h1 className="text-white">
 					Man, I can&#x27;t bealive you&#x27;ve spent so much time
 					watching on this counter! :)
