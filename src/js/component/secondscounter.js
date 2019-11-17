@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 export const SecondsCounter = () => {
 	const [seconds, setSeconds] = useState(0);
 	useEffect(() => {
@@ -12,38 +13,214 @@ export const SecondsCounter = () => {
 
 	if (counter.length === 1) {
 		return (
-			<div>
-				<h1>0</h1>
-				<h1>0</h1>
-				<h1>0</h1>
-				<h1>{counter[0]}</h1>
+			<div className="container mt-5">
+				<div className="card-deck">
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<div className="card-body">
+							<i
+								className="far fa-clock mt-5"
+								style={{ fontSize: "10rem" }}
+							/>
+						</div>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							0
+						</h2>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							0
+						</h2>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							0
+						</h2>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							{counter[0]}
+						</h2>
+					</div>
+				</div>
 			</div>
 		);
 	} else if (counter.length === 2) {
 		return (
-			<div>
-				<h1>0</h1>
-				<h1>0</h1>
-				<h1>{counter[0]}</h1>
-				<h1>{counter[1]}</h1>
+			<div className="container mt-5">
+				<div className="card-deck">
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<div className="card-body">
+							<i
+								className="far fa-clock mt-5"
+								style={{ fontSize: "10rem" }}
+							/>
+						</div>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							0
+						</h2>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							0
+						</h2>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							{counter[0]}
+						</h2>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							{counter[1]}
+						</h2>
+					</div>
+				</div>
 			</div>
 		);
 	} else if (counter.length === 3) {
 		return (
-			<div>
-				<h1>0</h1>
-				<h1>{counter[0]}</h1>
-				<h1>{counter[1]}</h1>
-				<h1>{counter[2]}</h1>
+			<div className="container mt-5">
+				<div className="card-deck">
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<div className="card-body">
+							<i
+								className="far fa-clock mt-5"
+								style={{ fontSize: "10rem" }}
+							/>
+						</div>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							0
+						</h2>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							{counter[0]}
+						</h2>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							{counter[1]}
+						</h2>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							{counter[2]}
+						</h2>
+					</div>
+				</div>
 			</div>
 		);
 	} else if (counter.length === 4) {
 		return (
-			<div>
-				<h1>{counter[0]}</h1>
-				<h1>{counter[1]}</h1>
-				<h1>{counter[2]}</h1>
-				<h1>{counter[3]}</h1>
+			<div className="container mt-5">
+				<div className="card-deck">
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<div className="card-body">
+							<i
+								className="far fa-clock mt-5"
+								style={{ fontSize: "10rem" }}
+							/>
+						</div>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							{counter[0]}
+						</h2>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							{counter[1]}
+						</h2>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							{counter[2]}
+						</h2>
+					</div>
+					<div
+						className="card text-center"
+						style={{ height: "18rem" }}>
+						<h2
+							className="card-title"
+							style={{ fontSize: "15rem" }}>
+							{counter[3]}
+						</h2>
+					</div>
+				</div>
 			</div>
 		);
 	}
